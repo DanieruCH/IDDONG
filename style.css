@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+h1 {
+    color: gold;
+}
+.slot-container {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin: 30px auto;
+}
+.slot {
+    width: 80px;
+    height: 80px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    cursor: pointer;
+    background: gold;
+    border: none;
+    border-radius: 5px;
+}
+.result, .score {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
